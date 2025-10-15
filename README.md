@@ -1,13 +1,13 @@
 # lab_iso2
 Repositorio para el laboratorio de Ing. del Software 2
 
-#  ALUMNOS DEL EQUIPO
+## ALUMNOS DEL EQUIPO
 Alejandro Aranda García\
 Juan Rafael Escobar Díaz\
 Marcos Escalona Verbo\
 Javier Díaz-Carralero Fernández\
 Carlos Antonio Alonso Antona\
-Sergio Alcaide Nieto\
+Sergio Alcaide Nieto
 
-#  GRUPO
+## GRUPO
 Lab_BC6
