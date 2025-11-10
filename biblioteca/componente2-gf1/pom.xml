@@ -2,16 +2,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>ISO25-ISO2-BC6</artifactId>
+    <artifactId>biblioteca</artifactId>
     <groupId>com.labiso</groupId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
   </parent>
 
   <groupId>com.labiso</groupId>
-  <artifactId>ISO25-ISO2-BC6</artifactId>
+  <artifactId>componente2-gf1</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>ISO25-ISO2-BC6</name>
+  <name>componente2-gf1</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
