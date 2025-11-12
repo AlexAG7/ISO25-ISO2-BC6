@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.labiso</groupId>
   <artifactId>biblioteca</artifactId>
-  <version>1.1.0</version>
+  <version>1.2.0</version>
   <packaging>pom</packaging>
   <name>biblioteca</name>
   <modules>
@@ -10,6 +10,7 @@
     <module>componente2-gf1</module>
     <module>componente3-gf2</module>
     <module>componente4-gf3</module>
+    <module>componente5-gf9</module>
   </modules>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
