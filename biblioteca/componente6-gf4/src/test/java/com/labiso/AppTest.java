@@ -4,35 +4,57 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-/**
- * Unit test for simple App.
- */
 public class AppTest 
     extends TestCase
 {
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
+    
+    private App.NoFunciona obj;
+
     public AppTest( String testName )
     {
         super( testName );
     }
 
-    /**
-     * @return the suite of tests being tested
-     */
+    @Override
+    protected void setUp() throws Exception {
+        super.setUp();
+        obj = new App.NoFunciona();
+    }
+    
     public static Test suite()
     {
         return new TestSuite( AppTest.class );
     }
 
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
+    public void testGetEdadInicial()
     {
-        assertTrue( true );
+        assertEquals(1, obj.getEdad()); 
+    }
+
+    public void testSetEdad()
+    {
+        int nuevaEdad = 42;
+        obj.setEdad(nuevaEdad);
+        assertEquals(nuevaEdad, obj.getEdad()); 
+    }
+
+    public void testVerificarEdadLegal_MayorDeEdad() {
+        String resultado = obj.verificarEdadLegal(20);
+        assertEquals("Mayor de edad", resultado);
+    }
+    
+    public void testVerificarEdadLegal_MenorDeEdad() {
+        String resultado = obj.verificarEdadLegal(15);
+        assertEquals("Menor de edad", resultado);
+    }
+
+    public void testVerificarEdadLegal_Limite18() {
+        String resultado = obj.verificarEdadLegal(18);
+        assertEquals("Mayor de edad", resultado);
+    }
+
+    public void testAppSimple()
+    {
+        assertTrue(true);
     }
 }

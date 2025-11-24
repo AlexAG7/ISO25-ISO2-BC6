@@ -35,4 +35,20 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    public void testSuma() {
+        int a = 2;
+        int b = 3;
+        int resultadoEsperado = 5;
+        int resultadoActual = a + b;
+        assertEquals(resultadoEsperado, resultadoActual);
+    }
+
+    public void testEdad(){
+        App.NoFunciona obj = new App.NoFunciona();
+        int edadEsperada = 1;
+        int edadActual = obj.getEdad();
+        assertEquals(edadEsperada, edadActual);
+    }
+
 }

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                               https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.labiso</groupId>
+  <artifactId>biblioteca</artifactId>
+  <version>1.2.0</version>
+  <packaging>pom</packaging>
+  <name>biblioteca</name>
+  <modules>
+    <module>componente1-gf7</module>
+    <module>componente2-gf1</module>
+    <module>componente3-gf2</module>
+    <module>componente4-gf3</module>
+    <module>componente5-gf9</module>
+    <module>componente6-gf4</module>
+    <module>componente7-gf5</module>
+  </modules>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+  </properties>
+</project>
