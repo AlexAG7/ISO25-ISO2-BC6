@@ -14,6 +14,7 @@
 
   <artifactId>componente1-gf7</artifactId>
   <packaging>jar</packaging>
+  <version>1.0.0</version>
 
   <name>componente1-gf7</name>
   <url>http://www.example.com</url>
