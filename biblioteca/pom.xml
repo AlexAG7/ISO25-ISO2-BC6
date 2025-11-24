@@ -12,6 +12,7 @@
     <module>componente4-gf3</module>
     <module>componente5-gf9</module>
     <module>componente6-gf4</module>
+    <module>componente7-gf5</module>
   </modules>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
